@@ -1,0 +1,69 @@
+body{
+  font-family: 'Didact Gothic', sans-serif;
+font-family: 'Mohave', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+
+}
+
+
+#gaqroba{
+  display: none;
+}
+
+#info{
+  margin-top: 2rem;
+}
+p{
+text-transform: uppercase;
+  margin: 0;
+}
+button{
+background-color: #5D99E8;
+color: white;
+height: 2rem;
+width: 8rem;
+font-size: 1rem;
+text-transform: uppercase;
+border:none;
+border-radius: 12%;
+
+
+}
+span{
+  margin-left: 1.5rem;
+}
+
+#contaier{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  margin-left: 0;
+  background-color: #E3E0EA;
+  width: 20%;
+  border-radius: 2%;
+}
+
+select{
+  height: 1.9rem;
+  width: 100%;
+ border: none;
+  border-radius: 2%;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: #5D99E8;
+  color: white;
+  
+}
+
+hr{
+  height: 1px;
+  background-color: #5D99E8;
+  border: none;
+}
+
+.buttons{
+  display: flex;
+  gap: 1.5rem;
+}

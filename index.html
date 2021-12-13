@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Mohave:ital,wght@0,300;1,400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Covid Info</title>
+</head>
+<body >
+
+   
+<div id="contaier">
+    
+    <select id="select-id">
+<option value="global" id="global" selected>Global</option>
+
+    </select>
+
+    
+    <div id="info">
+<p >location: <span id="location">dad</span> </p>
+<hr>
+<p>Last Update:<span id="update"></span> </p>
+<hr>
+<p>confirmed: <span id="confirmed" ></span> </p>
+<hr>
+<p>population: <span id="population"></span> </p>
+<hr>
+<div id="gaqroba">
+<p>deaths: <span id="deaths"></span> </p>
+<hr>
+<p>Life Expectancy: <span id="life-expectancy"></span> </p>
+<hr>
+<p>infection rate: <span id="infection-rate"></span> </p>
+<hr>
+<p>death rate: <span id="death-rate"></span> </p>
+<hr>
+
+</div>
+    </div>
+
+
+<div class="buttons">
+    <button id="butt">View More</button>
+    <button id="butt1">close</button>
+</div>
+</div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
